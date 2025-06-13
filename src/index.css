@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/fonts/MuseoModerno/iconic-variable.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.heroimg {
+    background-image: url('./assets/actionstatement.png');
+    background-size: contain ;
+    background-position: top center;
+    background-repeat: no-repeat;
+   z-index: 100;
+    
+}
+.heroimg2 {
+    background-image: url('./assets/actionstatement.png');
+    background-size: cover;
+    background-size: 200%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+}
+
+.worldbg{
+  background-image: url('./assets/world.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   opacity: .9;
+ 
+}
+.networkbg{
+  background-image: url('./assets/network.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+ 
+}
+.conbg{
+  background-image: url('./assets/gradient.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+ 
+}
